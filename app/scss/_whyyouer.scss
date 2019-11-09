@@ -1,0 +1,128 @@
+.block {
+  padding: 60px 0 30px 0; }
+
+.bc {
+  position: relative;
+  text-align: center; }
+
+.block-title h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.875rem;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.block-title h2:after,
+.offer-box:after {
+  content: '';
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 45%;
+  left: 98%;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+          transform: rotate(0deg); }
+
+.block-title h2:before, .offer-box:before {
+  content: '';
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  bottom: 45%;
+  right: 98%;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+         transform: rotate(0deg); }
+
+.block-description {
+  font-size: 1.375rem;
+  color: #95989A;
+  margin: 18px 0 20px 0;
+  text-transform: uppercase; }
+
+ul.tambl_row {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+ul.tambl_row-left {
+  margin: 0;
+  margin-bottom: -1%;
+  margin-left: -1%;
+  padding: 0;
+  list-style-type: none; }
+
+.tambl_item {
+  float: left;
+  width: 24%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  padding: 10px 5px;
+  text-align: center; }
+
+.tambl-title {
+  text-transform: uppercase;
+  color: #F89430;
+  font-size: 1.125rem;
+  margin: 20px 0 10px 0; }
+
+.title-text {
+  font-size: 1rem; }
+
+.icon {
+  background: url(../img/sprite.png) no-repeat;
+  display: inline-block; }
+
+.icon-clock {
+  background-position: 0px -340px;
+  width: 55px;
+  height: 55px; }
+
+.icon-color {
+  background-position: 0px -515px;
+  width: 55px;
+  height: 55px; }
+
+.icon-diamont {
+  background-position: 0px -690px;
+  width: 55px;
+  height: 55px; }
+
+.icon-exp {
+  background-position: 0px -865px;
+  width: 55px;
+  height: 55px; }
+
+.icon-ico-left {
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px; }
+
+.icon-ico-right {
+  background-position: 0px -170px;
+  width: 50px;
+  height: 50px; }
+
+.icon-icon-command {
+  background-position: 0px -1040px;
+  width: 55px;
+  height: 55px; }
+
+.icon-icon-work {
+  background-position: 0px -1215px;
+  width: 55px;
+  height: 55px; }
+
+.icon-smile {
+  background-position: 0px -1390px;
+  width: 55px;
+  height: 55px; }
+
+  .icon-tools {
+    background-position: 0px -1565px;
+    width: 55px;
+    height: 55px;
+  }

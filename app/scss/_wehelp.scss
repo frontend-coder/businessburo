@@ -1,0 +1,184 @@
+.btl-title_box {
+  padding: 0;
+  margin: 0; }
+
+ .btl-left {
+  float: left;
+  width: 50%; }
+
+ .btl-right {
+   float: left;
+   width: 50%; }
+
+ .box-fivepriz {
+   position: relative;
+   padding-bottom: 30px; }
+
+ .box-fivepriz_block {
+   padding: 0;
+   margin: 0; }
+
+ .box-fivepriz_item {
+   float: left;
+   width: 26%;
+   padding-bottom: 10px; }
+
+ .box-fivepriz_item_b {
+   margin-top: 6%; }
+
+ .box-fivepriz_item_m {
+   margin: 0 11%; }
+
+ .box-fivepriz_item_buttom {
+   margin-right: 47%; }
+
+ .box-fivepriz_number {
+  width: 70px;
+  margin: 0 auto;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border: 1px solid #FF7800;
+  border-radius: 50%;
+  font-size: 3.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #FF7800; }
+.box-fiveprix_text {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: center; }
+ .block-offer_pad {
+   padding: 73px 0 52px 0;
+ }
+
+ .triengel {
+  position: relative;
+  border-bottom: 2px dotted #F89430; }
+
+.triengel_border {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  z-index: 0;
+  top: 74%;
+  left: 125%;
+  border-left: 2px dotted #F89430;
+  transform: rotate(118deg);
+}
+ .triengel-two {
+  position: relative;
+  border-bottom: 2px dotted #F89430; }
+.triengel-two_border {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 95%;
+  left: 88%;
+  border-left: 2px dotted #F89430;
+  transform: rotate(25deg);
+}
+
+.triengel-three {
+  position: relative;
+  border-bottom: 2px dotted #F89430;
+}
+
+.triengel-three_border {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 78%;
+  right: 122%;
+  border-left: 2px dotted #F89430;
+  transform: rotate(237deg);
+}
+
+.triengel-four {
+  position: relative;
+  border-bottom: 2px dotted #F89430; }
+
+.triengel-four_border {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 25%;
+  left: 84%;
+  border-bottom: 2px dotted #F89430;
+  transform: rotate(493deg);
+}
+
+.triengel-five {
+  position: relative;
+  border-bottom: 2px dotted #F89430;
+}
+
+.triengel-five_border {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 25%;
+  right: 84%;
+  border-bottom: 2px dotted #F89430;
+  transform: rotate(406deg);
+}
+
+.offer-box {
+  color: #000000;
+  font-size: 1.25rem;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.offer-box_title {
+  width: 95%;
+  margin: 0 auto;
+font-weight: normal;}
+
+.offer-box span {
+  display: block;
+  padding-top: 10px;
+  width: 95%;
+  margin: 0 auto;
+  color: #F89430; }
+
+.offer-box:before {
+  bottom: 88%;
+  right: 98%;
+}
+
+.offer-box:after {
+  top: 88%;
+  left: 98%;
+}
+
+.box-fivepriz_second {
+  margin-top: 200px;
+}
+
+.box-fivepriz_garanty {
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 26%;
+  z-index: 100;
+  background-color: #ffffff;
+  border: 2px solid #FF7800;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  margin: 20px auto 2%;
+}
+
+.box-fivepriz-b {
+  font-size: 1.88rem;
+  font-weight: bold;
+  line-height: 1.0;
+}
+.box-fivepriz-j {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FF7800;
+}

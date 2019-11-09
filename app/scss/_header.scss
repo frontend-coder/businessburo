@@ -1,0 +1,226 @@
+
+.header_img {
+  background: #000 url("../img/header-pic.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative; }
+
+  .header_img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+
+    .top-line {
+      width: 100%;
+      z-index: 200;
+      position: fixed;
+      padding: 10px 0;
+      background-color:  #000000;
+      text-align: center; }
+      .top-line.hi {
+        background-color: transparent;
+      }
+      .top-line_row {
+       padding: 0;
+       margin: 0;
+     }
+
+     .logo {
+      width: 200px;
+      float: left;
+      margin-top: -5px; }
+
+      .logo img {
+        width: 100%;
+        height: auto; }
+
+        .top-menu {
+         float: left; }
+         .top-line-box {
+          float: right;
+        }
+        .top-line-call {
+          color: #ffffff;
+          text-align: center;
+          padding: 0; }
+          .top-line-call_link a.quation-buro {
+            font-size: 0.875rem;
+            font-weight: bold;
+            color: #ffffff;
+          }
+          .top-line-call_link {
+            float: left;
+            margin-left: 15px;
+          }
+          .top-menu ul {
+            padding: 0;
+            list-style-type: none; }
+            .top-menu ul li {
+              display: inline-block;
+              position: relative; }
+
+              .top-menu ul li:before {
+                content: '';
+                position: absolute;
+                height: 50%;
+                top: 25%;
+                right: 0;
+                border-right: 1px solid #ffffff; }
+                .top-menu ul li:last-child:before {
+                  border-right: none; }
+                  .top-menu ul li a {
+                    text-align: center;
+                    font-size: 0.875rem;
+                    line-height: 1.2;
+                    position: relative;
+                    display: block;
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    transition: all 1.5s ease; }
+
+                    .top-menu ul li a:hover:before {
+                      position: absolute;
+                      content: '';
+                      width: 80%;
+                      left: 10%;
+                      bottom: 0;
+                      border-bottom: 1px dashed #F89430; }
+                      a.quation-buro {
+                        display: inline-block;
+                        color: #000000;
+                        background-color: #F89430;
+                        height: 45px;
+                        line-height: 42px;
+                        padding: 0 20px;
+                        margin: 7px auto 0;
+                        text-align: center;
+                        font-size: 1.6rem;
+                        text-transform: uppercase;
+                        border-radius: 5px;
+                        border-bottom: 5px solid #FF7800;
+                        text-decoration: none;
+                        transition: all 0.5s ease 0.1s; }
+
+                        a.quation-buro:hover {
+                          background-color: #ed7b08;
+                          border-bottom: 5px solid #cc6000; }
+
+                          .hamburger {
+                            cursor: pointer;
+                            outline: none;
+                            display: none; }
+
+
+                            .hamburger-inner {
+                              background-color: #fff; }
+                              .hamburger-inner::before {
+                                background-color: #fff; }
+                                .hamburger-inner::after {
+                                  background-color: #fff; }
+
+
+                                  .mm-listview > li > a, .mm-listview > li > span {
+                                    padding: 14px 10px 14px 50px;
+                                    font-size: 1rem;
+                                    color: #ffffff;
+                                    transition: all 1.5s ease; }
+
+                                    .mm-listview > li > a:hover {
+                                      color: #cccccc; }
+
+
+                                      .title-header {
+                                        position: relative;
+                                        margin: 18% auto 12% auto;
+                                        color: #ffffff;
+                                        width: 68%; }
+
+                                        .title-header h1 {
+                                          font-size: 3.25rem;
+                                          text-transform: uppercase;
+                                          margin-bottom: 20px;
+                                          color: #FF7800; }
+
+                                          .title-header h1 span {
+                                            color: #ffffff;
+                                            text-transform: uppercase; }
+
+                                            .title-header h3 {
+                                              color: #ffffff;
+                                              margin-bottom: 60px;
+                                              line-height: 1.2;
+                                              font-size: 2rem; }
+
+                                              .title-header h3 span {
+                                                color: #FF7800; }
+
+                                                .title-header_descr {
+                                                  font-size: 2.5rem;
+                                                  position: relative;
+                                                  width: 100%;
+                                                  padding: 0 10px; }
+
+                                                  .title-header_descr span {
+                                                    color: #FF7800;
+                                                    text-transform: uppercase;
+                                                    font-size: 3.3125rem;
+                                                    line-height: 1.4;
+                                                    display: block; }
+
+                                                    .title-header_descr:before {
+                                                      content: '';
+                                                      position: absolute;
+                                                      width: 50px;
+                                                      height: 50px;
+                                                      bottom: 79%;
+                                                      right: 94%;
+                                                      border-top: 2px solid #ffffff;
+                                                      border-left: 2px solid #ffffff;
+                                                      transform: rotate(0deg); }
+
+                                                      .title-header_descr:after {
+                                                        content: '';
+                                                        position: absolute;
+                                                        width: 50px;
+                                                        height: 50px;
+                                                        top: 79%;
+                                                        left: 94%;
+                                                        border-bottom: 2px solid #ffffff;
+                                                        border-right: 2px solid #ffffff;
+                                                        transform: rotate(0deg); }
+
+                                                        .title-header_arrow {
+                                                          position: absolute;
+                                                          background: url(../img/arrow-white.png) no-repeat;
+                                                          width: 100px;
+                                                          height: 80px;
+                                                          right: 42%;
+                                                          bottom: -29%; }
+
+                                                          .calling-me {
+                                                            text-align: right;
+                                                            margin-top: 70px;
+                                                            padding-left: 0;
+                                                            margin-left: 0; }
+
+                                                            a.roket-link {
+                                                              display: block;
+                                                              width: 55px;
+                                                              height: 55px;
+                                                              background: url(../img/roket.png) no-repeat;
+                                                              position: absolute;
+                                                              left: 50%;
+                                                              bottom: 10px;
+                                                              transition: all 0.5s ease 0.1s; }
+
+                                                              a.roket-link:hover {
+                                                                transform: rotate(180deg); }
+
+                                                                #my-menu {
+                                                                  display: none;
+                                                                }

@@ -1,0 +1,225 @@
+﻿.adwise-fon .block-description {
+  color: #ffffff; }
+
+.adwise-fon {
+  background: #ffffff url("../img/fon-adwise.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.adwise-fon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35); }
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  width: 60%; }
+
+.swiper-slide:nth-child(2n) {
+  width: 40%; }
+
+.swiper-slide:nth-child(3n) {
+  width: 20%; }
+
+.swiper-slide_ad {
+  padding-bottom: 40px; }
+
+.swiper-slide_ad img {
+  width: 100%;
+  height: auto; }
+
+.adwise-box {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative; }
+
+.adwise-box-adwice {
+  padding: 0;
+  margin: 0;
+  padding: 10px 5px; }
+
+.adwise-box-pictures {
+  float: left;
+  width: 200px;
+  height: 200px; }
+
+.adwise-box-pictures img {
+  border-radius: 50%;
+  border: 1px solid #FF7800; }
+
+.adwise-box_avtor {
+  margin-top: 10px;
+  font-size: 0.80rem;
+  color: #FF7800; }
+
+.adwise-box_avtor span {
+  display: block; }
+
+.adwise-box_box {
+  float: left;
+  width: 80%; }
+
+.adwise-box_title {
+  font-size: 1.875rem;
+  line-height: 1.1;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.adwise-box_title::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px dotted #FF7800;
+  bottom: -10px;
+  width: 80%;
+  left: 10%; }
+
+.adwice-box-text {
+  text-align: left;
+  line-height: 1.3;
+  font-size: 1.25rem;
+  padding: 5px 10px;
+  font-weight: 300; }
+.adwise-box-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: scale(1);
+  transition: all 1.25s ease; }
+
+.adwise-box-item:hover {
+  opacity: 1; }
+
+.adwise-box-item a {
+  display: inline-block;
+  position: absolute;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ff736e;
+  transition: all 1.25s ease; }
+
+.adwise-box-item a:hover {
+  color: white; }
+
+a.adwise-zoom-block {
+  background-color: #FF8316;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  margin-top: -75px;
+  margin-left: -75px;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+  font-size: 0.70rem; }
+
+.zoom-block_title, .zoom-block_name, .zoom-block_avtor {
+  color: #ffffff;
+  padding: 5px 0; }
+
+.zoom-block_title {
+  font-weight: bold;
+  font-size: 0.90rem; }
+
+.adwise-box-popup {
+  position: relative;
+  left: 0;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 3px solid #FF7800;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+.adwise-box-popup img {
+  text-align: center; }
+
+.adwise-box-popup_images,
+.adwise-box-popup_text
+{
+float: left;
+}
+.adwise-box-popup_images {
+  width: 27%;
+}
+
+.adwise-box-popup_text {
+  width: 73%;
+  padding-left: 10px;
+ }
+.adwise-box-popup_images img {
+display: inline-block;
+width: 100%;
+height: auto;
+}
+
+.adwise-box-popup p {
+  color: #000000;
+  text-align: left;
+  font-size: 1.1rem;
+  margin: 5px 0; }
+
+.adwise-box-popup h6 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: left;
+  margin: 0; }
+
+.adwise-box-popup h5 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-style: italic;
+  font-weight: normal;
+  text-align: right;
+  text-transform: uppercase; }
+
+.video-block {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-block iframe,
+.video-block object,
+.video-block embed {
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.adwise-box-popup .mfp-close {
+  position: absolute;
+  right: 0;
+  top: -2px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1rem;
+  background-color: #FF7800;
+  color: black;
+  font-weight: bold;
+  transition: all 1.25s ease; }
+
+.mfp-close-btn-in .mfp-close:hover {
+  opacity: .99; }

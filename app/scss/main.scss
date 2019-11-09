@@ -1,0 +1,60 @@
+*::-webkit-input-placeholder {
+  opacity: 1;
+  color: #CECECE;
+  font-size: .9rem; }
+*:-moz-placeholder {
+  opacity: 1;
+  color: #CECECE;font-size: .9rem; }
+*::-moz-placeholder {
+  opacity: 1;
+  color: #CECECE;font-size: .9rem; }
+*:-ms-input-placeholder {
+  opacity: 1;
+  color: #CECECE; font-size: .9rem;}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+html {
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  -webkit-backface-visibility: hidden; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+  font-size: 16px;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialised; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+.hidden {
+  display: none; }
+/**стили оформления хедера сайта */
+@import "header";
+@import "whyyouer";
+@import "pfoneman";
+@import "wehelp";
+@import "orangeline";
+@import "slider_sixsteps";
+
+
+@import "progectrecall";
+
+@import "footer";
+@import "formes";
+
+
+
+// @import "otherstyle";

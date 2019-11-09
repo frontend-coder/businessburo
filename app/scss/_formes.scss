@@ -1,0 +1,479 @@
+
+.forms-call {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 40px;
+  border: 2px solid #FF7800;
+}
+
+.forms-calldecor {
+  max-width: 568px;
+  position: relative;
+  transition: all 0.5s else;
+  overflow: hidden;
+  margin: auto; }
+.forms-input {
+    float: left;
+    width: 31.33333%;
+    padding: 0 1%; }
+
+.forms-input_style input {
+      display: inline-block;
+      width: 100%;
+      height: 40px;
+      font-size: 1.0rem;
+      line-height: 40px;
+      border: 0;
+      border: 2px solid #FF7800;
+      border-radius: 10px;
+      text-indent: 10px;
+      margin: 10px auto;
+      transition: all 0.5s ease 0.1s;
+      outline: 0;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.4); }
+
+.forms-input .get-buttons {
+        background-color: #F89430;
+        padding: 0;
+        text-indent: 0;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease 0.1s; }
+
+.forms-input .get-buttons:focus,
+.forms-input .get-buttons:hover,
+.forms-input .get-buttons:active {
+          border: 2px solid #bc6106;
+          background-color: #bc6106;
+          color: #ffffff;
+          text-decoration: none; }
+
+.forms-input_style label {
+            margin: 10px 0;
+            display: block; }
+
+.button-call {
+              text-align: center;
+              margin: 0;
+              float: right; }
+
+
+#commentformfoure .get-buttons {
+  padding: 0; }
+
+
+.f-left_part, .f-right_part {
+  width: 50%;
+  float: left;
+  padding-bottom: 10px; }
+.f-left_part {
+  background-color: #000; }
+.f-right_part {
+  background-color: #fff; }
+.flp_box {
+  background-color: #000000;
+  color: #FF7800;
+  padding: 5px 0 5px 3px; }
+.flpbox_pic {
+  padding: 0;
+ width: 100px;
+ float: left; }
+.flpbox_pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #FF7800; }
+.flpbox_text {
+  float: left;
+  padding: 25px 5px 25px 7px;
+ font-size: 0.8125rem;
+ width: 60%; }
+.flpbox_text span {
+  text-transform: uppercase; }
+.flp_order {
+  background-color: #FF7800;
+  padding: 30px 0 20px 10px; }
+.flp_order_title {
+  text-transform: uppercase;
+ text-align: center;
+ color: #fff;
+ font-size: 1.25rem; }
+.flp_order_priziv {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold; }
+.flp_order_present {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative; }
+.flp_order_present:before {
+  position: absolute;
+  content: '';
+  border: 1px dashed #ffffff;
+  width: 80%;
+  left: 10%;
+  top: 120%; }
+.flp_order_terms {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 5px;
+}
+.flp_order_terms li {
+  position: relative;
+  padding-left: 24px; }
+.flp_order_terms li:before {
+ position: absolute;
+ left: 5px;
+ top: 1px;
+  font-family: FontAwesome;
+  content: "\f005";
+  color: #fff; }
+.flp_order_terms li span {
+  color: #fff;
+  white-space: pre; }
+.flp_order_detels {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic; }
+.flp_order_detels:before {
+  position: absolute;
+  content: '';
+  border: 1px dashed #ffffff;
+  width: 80%;
+ left: 10%;
+  bottom: 120%; }
+.flp_action {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  font-size: 1.125rem; }
+.flp_action span {
+  display: block;
+  color: #FF7800;
+ font-size: 1.75rem; }
+.mfp-bg {
+  background: #fff; }
+.frp_lets {
+  border: 2px solid #FF7800;
+  margin: 45px auto 25px;
+width: 95%;
+padding: 10px 5px;
+ text-transform: uppercase;
+ font-size: 0.625rem;
+  font-weight: bold; }
+.forms-calldecor .mfp-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  width: 30px;
+  font-size: 30px;
+  height: 30px;
+  line-height: 23px;
+  border-radius: 50%;
+  border: 2px solid #FF7800;
+  transition: all 0.5s ease 0.1s; }
+
+.frp_lets_puts {
+  color: #95989A;
+  font-size: 0.75rem;
+  margin: 0 10px;
+  text-align: center; }
+.forms-calldecor_input {
+  width: 90%;
+  display: block;
+  text-indent: 10px;
+  background-color: #fcfcfc;
+  height: 30px;
+  line-height: 30px;
+  outline: 0;
+  color: #000000;
+  margin: 5px auto;
+  border-radius: 10px;
+  border: 1px solid #CECECE; }
+.forms-calldecor_checkbox {
+  color: #95989A;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.625rem;
+  display: inline-block;
+ padding: 5px 15px 0; }
+
+.forms-calldecor_checkbox a {
+  color: #95989A;
+ transition: all 1.5s ease;
+ }
+
+.forms-calldecor_area {
+  width: 90%;
+  display: block;
+   text-indent: 10px;
+   background-color: #fcfcfc;
+   height: 70px;
+   margin: 5px auto;
+   border-radius: 10px;
+   border: 1px solid #CECECE;
+   resize: none;
+   outline: 0; }
+
+.forms-calldecor .button-call {
+  float: none;
+  text-align: center;
+  color: #fff;
+  margin-top: 18px;
+  margin-bottom: 10px; }
+
+.forms-calldecor .get-buttons {
+  background-color: #FF7800;
+    padding: 10px 15px;
+    outline: 0;
+    text-indent: 0;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s ease 0.1s;
+    font-size: 1rem; }
+
+.forms-input .get-buttons:focus,
+.forms-input .get-buttons:hover,
+.forms-input .get-buttons:active {
+  border: 2px solid #994800;
+  background-color: #994800;
+  color: #ffffff;
+  text-decoration: none; }
+
+.contact_date {
+  font-size: 0.625rem;
+  text-align: center;
+  color: #CECECE; }
+
+.contact_telegram {
+ text-align: center;
+ margin-top: 26px; }
+.contact_telegram a {
+  color: #000;
+  border-bottom: 1px dashed #FF7800;
+  text-decoration: none; }
+.contact_telegram a span {
+  text-transform: uppercase; }
+.forms-calldecor h4, .forms-calldecor h5 {
+ color: #fff;
+ text-align: center;
+ font-size: 1.3em;
+ margin: 50px 20px 0; }
+.forms-calldecor h5 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 0.96em;
+  letter-spacing: 1px; }
+
+.forms-calldecor .success {
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: all 0.5s ease; }
+.forms-calldecor .success.active {
+  top: 0;
+  opacity: 1; }
+.forms-calldecor .success p {
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+  color: #fff;
+  font-size: 20px;
+  margin: auto;
+  text-align: center; }
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all 0.615s ease-out; }
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8; }
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0; }
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0; }
+
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+  transition: all 0.615s ease-out;
+  transform: translateY(1%); }
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+  transform: translateY(-120%); }
+
+.tooltip {
+  color: #000000;
+  outline: none;
+ cursor: help;
+ text-decoration: none;
+position: relative;
+ transition: all 0.5s ease 0.1s; }
+
+.tooltip div {
+  margin-left: -999em;
+  position: absolute; }
+
+.tooltip:hover div {
+  border-radius: 5px 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 20%;
+  bottom: 100%;
+  z-index: 99;
+  margin-left: 0;
+  width: 80%;
+  padding: 5px; }
+.classic {
+background: #ffffff;
+ border: 1px solid #FF7800;
+ text-align: left; }
+.classic h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+.classic ul {
+ list-style-type: none;
+ padding-left: 10px; }
+.classic ul li {
+  margin-bottom: 5px;
+  font-size: .8rem;
+}
+
+/*оформление всплывающей формы а ниже и благодарности */
+// .fc-h {
+//   text-align: center; }
+
+// .fc-h h4, .forms-calldecor h5 {
+//   color: #000;
+//   text-align: center;
+//   font-size: 1.3rem;
+//   display: inline-block;
+//   margin-bottom: 20px;
+//   position: relative; }
+
+// .fc-h h4:before {
+//   content: "";
+//   position: absolute;
+//   border: 1px solid #FF7800;
+//   bottom: -13px;
+//   width: 100%; }
+
+// .fc-ul-polit ol {
+//   margin-left: 10px;
+//   margin-bottom: 5px; }
+
+// .fc-ul-polit ol li {
+//   margin-bottom: 3px; }
+
+// .fc-ul-polit ol li ol {
+//   margin: 5px 0 5px -15px; }
+
+// .fc-avtorpolit {
+//   font-size: 1.1rem;
+//   line-height: 1.4;
+//   margin: 25px 20px 10px 20px;
+//   position: relative; }
+
+// .fc-avtorpolit:before {
+//   position: absolute;
+//   content: '';
+//   top: -10px;
+//   width: 20%;
+//   height: 2px;
+//   background-color: #FF7800; }
+
+// .fc-h_link a, .fc-avtorpolit a {
+//   color: #FF7800;
+//   border-bottom: 1px dashed;
+//   text-decoration: none;
+//   -webkit-transition: all 0.5s ease 0.1s;
+//   -o-transition: all 0.5s ease 0.1s;
+//   transition: all 0.5s ease 0.1s; }
+
+// .fc-h_link a:hover, .fc-avtorpolit a:hover {
+//   color: #cc6000;
+//   border-bottom: 1px solid; }
+
+// .fc-ul-polit ol li {
+//   margin-bottom: 3px; }
+
+// .fc-ul ul {
+//   list-style-type: none; }
+
+// .fc-ul ul li {
+//   position: relative;
+//   margin-bottom: 3px; }
+
+// .fc-ul ul li:before {
+//   position: absolute;
+//   left: -20px;
+//   top: -1px;
+//   font-size: 1.0rem;
+//   font-family: "FontAwesome";
+//   content: "\f046";
+//   color: #FF7800; }
+
+// .fc-border {
+//   position: relative;
+//   margin-top: 30px; }
+
+// .fc-border:before {
+//   position: absolute;
+//   content: "";
+//   top: -10px;
+//   left: 25%;
+//   width: 50%;
+//   height: 2px;
+//   background-color: rgba(255, 120, 0, 0.42); }
+
+// .fc-fon_box {
+//   margin: 15px 10px;
+//   background-color: #FF7800;
+//   padding: 10px 0; }
+
+// .fc-fon_box .fc-ul ul li:before {
+//   color: #fff;
+//   content: "\f045"; }
+
+// .form_fon {
+//   background: #fff; }
+
+// .form_fon_title {
+//   color: #FF7800;
+//   font-weight: bold;
+//   margin-left: 15px; }
+
+// .form_fon_title .fa {
+//   margin-right: 5px; }
+
+
+
