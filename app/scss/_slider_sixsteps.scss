@@ -1,32 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .swiper-container {
   width: 100%; }
 .swiper-wrapper {
-  margin-bottom: 30px; }
+  margin-bottom: 45px; }
 
 
 .box-img-kommand-wrap {
@@ -55,8 +30,7 @@ span.nmber {
   padding: 0;
   font-variant: normal;
   line-height: 30px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+      border-radius: 50%;
   text-align: center; }
 
 span.title {
@@ -144,8 +118,7 @@ span.title {
 .box-img-kommand img {
   width: 150px;
   height: 150px;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+         border-radius: 50%;
   border: 1px solid #FF7800; }
 
 .box-text-kommand {
@@ -217,9 +190,11 @@ span.title {
   color: #fff;
   background: #FF7800; }
 
+#firstswiper00 .swiper-pagination .swiper-pagination-bullet,
+#firstswiper00 .swiper-pagination .swiper-pagination-bullet,
 #firstswiper .swiper-pagination .swiper-pagination-bullet,
 #swiper-avtor .swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px; }
+  width: 12px;
+  height: 12px; }
 
 

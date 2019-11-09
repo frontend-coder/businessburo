@@ -136,6 +136,70 @@ $(".adwise-box-item").magnificPopup({
 
 
 
+var swiper = new Swiper('#firstswiper00', {
+slidesPerView       : 5,
+ slidesPerGroup: 5,
+loop                : true ,
+ loopFillGroupWithBlank: true,
+//centeredSlides      : true,
+  keyboardControl     : true,
+keyboardControl     : true,
+      //   autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
+roundLengths        : true,
+mousewheelControl   : true,
+paginationClickable : true,
+spaceBetween        : 20,
+  pagination          : {
+  el                  : '.swiper-pagination',
+  clickable           : true,
+  }
+
+});
+
+
+// // галерея всплывающая на слайдерее
+$(".portfolio-item").each(function(e){
+  var th = $(this);
+  th.attr("href", "#popup-box-image-" + e)
+  .find(".popup-box-popup")
+  .attr("id", "popup-box-image-" + e);
+});
+$(".portfolio-item").magnificPopup({
+  mainClass    : 'mfp-fade',
+  removalDelay:300,
+  fixedContentPos : false,
+   tClose: 'Закрыть (Esc)',
+  fixedBgPos      : false,
+  type:'inline',
+});
+
+
+// как заставить скроллить картику в контейнере
+var xH
+$('.modal_form_picture').hover(
+  function () {
+    xH = $(this).children('img').css('height');
+    xH = parseInt(xH);
+    xH = xH - 600;
+    xH = '-' + xH + 'px';
+    $(this).children('img').css({top: xH}, 1000000);
+  }, function () {
+    $(this).children('img').css({top: 0}, 1000000);
+  });
+$("ul#loadMoreDiv li").slice(0, 8).show();
+$("#loadMore").on('click', function (e) {
+  e.preventDefault();
+  $("ul#loadMoreDiv li:hidden").slice(0, 8).slideDown();
+  if ($("ul#loadMoreDiv li:hidden").length == 0) {
+    $("#load").fadeOut('slow');
+  }
+  $('html,body').animate({
+    scrollTop: $(this).offset().top
+  }, 1500);
+});
 
 
 
@@ -147,57 +211,6 @@ $(".adwise-box-item").magnificPopup({
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // как заставить скроллить картику в контейнере
-// var xH
-// $('.modal_form_picture').hover(
-//   function () {
-//     xH = $(this).children('img').css('height');
-//     xH = parseInt(xH);
-//     xH = xH - 600;
-//     xH = '-' + xH + 'px';
-//     $(this).children('img').css({top: xH}, 1000000);
-//   }, function () {
-//     $(this).children('img').css({top: 0}, 1000000);
-//   });
-// $("ul#loadMoreDiv li").slice(0, 8).show();
-// $("#loadMore").on('click', function (e) {
-//   e.preventDefault();
-//   $("ul#loadMoreDiv li:hidden").slice(0, 8).slideDown();
-//   if ($("ul#loadMoreDiv li:hidden").length == 0) {
-//     $("#load").fadeOut('slow');
-//   }
-//   $('html,body').animate({
-//     scrollTop: $(this).offset().top
-//   }, 1500);
-// });
 
 
 
