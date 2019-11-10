@@ -1,4 +1,3 @@
-
 .forms-call {
   margin-top: 20px;
   background-color: transparent;
@@ -14,55 +13,52 @@
   overflow: hidden;
   margin: auto; }
 .forms-input {
-    float: left;
-    width: 31.33333%;
-    padding: 0 1%; }
+  float: left;
+  width: 31.33333%;
+  padding: 0 1%; }
 
 .forms-input_style input {
-      display: inline-block;
-      width: 100%;
-      height: 40px;
-      font-size: 1.0rem;
-      line-height: 40px;
-      border: 0;
-      border: 2px solid #FF7800;
-      border-radius: 10px;
-      text-indent: 10px;
-      margin: 10px auto;
-      transition: all 0.5s ease 0.1s;
-      outline: 0;
-      color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.4); }
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  font-size: 1.0rem;
+  line-height: 40px;
+  border: 0;
+  border: 2px solid #FF7800;
+  border-radius: 10px;
+  text-indent: 10px;
+  margin: 10px auto;
+  transition: all 0.5s ease 0.1s;
+  outline: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .forms-input .get-buttons {
-        background-color: #F89430;
-        padding: 0;
-        text-indent: 0;
-        text-align: center;
-        text-decoration: none;
-        transition: all 0.5s ease 0.1s; }
+  background-color: #F89430;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease 0.1s; }
 
 .forms-input .get-buttons:focus,
 .forms-input .get-buttons:hover,
 .forms-input .get-buttons:active {
-          border: 2px solid #bc6106;
-          background-color: #bc6106;
-          color: #ffffff;
-          text-decoration: none; }
+  border: 2px solid #bc6106;
+  background-color: #bc6106;
+  color: #ffffff;
+  text-decoration: none; }
 
 .forms-input_style label {
-            margin: 10px 0;
-            display: block; }
+  margin: 10px 0;
+  display: block; }
 
 .button-call {
-              text-align: center;
-              margin: 0;
-              float: right; }
-
-
+  text-align: center;
+  margin: 0;
+  float: right; }
 #commentformfoure .get-buttons {
   padding: 0; }
-
 
 .f-left_part, .f-right_part {
   width: 50%;
@@ -302,30 +298,23 @@ padding: 10px 5px;
   margin: auto;
   text-align: center; }
 
-/* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
   transition: all 0.615s ease-out; }
-
-/* overlay animate in */
 .mfp-fade.mfp-bg.mfp-ready {
   opacity: 0.8; }
 
-/* overlay animate out */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0; }
 
-/* content at start */
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0; }
 
-/* content animate it */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
   opacity: 1;
   transition: all 0.615s ease-out;
   transform: translateY(1%); }
 
-/* content animate out */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
   transform: translateY(-120%); }
@@ -367,113 +356,3 @@ background: #ffffff;
   margin-bottom: 5px;
   font-size: .8rem;
 }
-
-/*оформление всплывающей формы а ниже и благодарности */
-// .fc-h {
-//   text-align: center; }
-
-// .fc-h h4, .forms-calldecor h5 {
-//   color: #000;
-//   text-align: center;
-//   font-size: 1.3rem;
-//   display: inline-block;
-//   margin-bottom: 20px;
-//   position: relative; }
-
-// .fc-h h4:before {
-//   content: "";
-//   position: absolute;
-//   border: 1px solid #FF7800;
-//   bottom: -13px;
-//   width: 100%; }
-
-// .fc-ul-polit ol {
-//   margin-left: 10px;
-//   margin-bottom: 5px; }
-
-// .fc-ul-polit ol li {
-//   margin-bottom: 3px; }
-
-// .fc-ul-polit ol li ol {
-//   margin: 5px 0 5px -15px; }
-
-// .fc-avtorpolit {
-//   font-size: 1.1rem;
-//   line-height: 1.4;
-//   margin: 25px 20px 10px 20px;
-//   position: relative; }
-
-// .fc-avtorpolit:before {
-//   position: absolute;
-//   content: '';
-//   top: -10px;
-//   width: 20%;
-//   height: 2px;
-//   background-color: #FF7800; }
-
-// .fc-h_link a, .fc-avtorpolit a {
-//   color: #FF7800;
-//   border-bottom: 1px dashed;
-//   text-decoration: none;
-//   -webkit-transition: all 0.5s ease 0.1s;
-//   -o-transition: all 0.5s ease 0.1s;
-//   transition: all 0.5s ease 0.1s; }
-
-// .fc-h_link a:hover, .fc-avtorpolit a:hover {
-//   color: #cc6000;
-//   border-bottom: 1px solid; }
-
-// .fc-ul-polit ol li {
-//   margin-bottom: 3px; }
-
-// .fc-ul ul {
-//   list-style-type: none; }
-
-// .fc-ul ul li {
-//   position: relative;
-//   margin-bottom: 3px; }
-
-// .fc-ul ul li:before {
-//   position: absolute;
-//   left: -20px;
-//   top: -1px;
-//   font-size: 1.0rem;
-//   font-family: "FontAwesome";
-//   content: "\f046";
-//   color: #FF7800; }
-
-// .fc-border {
-//   position: relative;
-//   margin-top: 30px; }
-
-// .fc-border:before {
-//   position: absolute;
-//   content: "";
-//   top: -10px;
-//   left: 25%;
-//   width: 50%;
-//   height: 2px;
-//   background-color: rgba(255, 120, 0, 0.42); }
-
-// .fc-fon_box {
-//   margin: 15px 10px;
-//   background-color: #FF7800;
-//   padding: 10px 0; }
-
-// .fc-fon_box .fc-ul ul li:before {
-//   color: #fff;
-//   content: "\f045"; }
-
-// .form_fon {
-//   background: #fff; }
-
-// .form_fon_title {
-//   color: #FF7800;
-//   font-weight: bold;
-//   margin-left: 15px; }
-
-// .form_fon_title .fa {
-//   margin-right: 5px; }
-
-
-

@@ -3,11 +3,9 @@
 .swiper-wrapper {
   margin-bottom: 45px; }
 
-
 .box-img-kommand-wrap {
   padding: 15px 0;
   margin: 0; }
-
 
 .step-develop {
   margin-left: 55px;
@@ -16,7 +14,6 @@
   color: #FF7800;
   font-size: 1.25rem;
   position: relative; }
-
 
 span.nmber {
   position: absolute;
@@ -195,6 +192,5 @@ span.title {
 #firstswiper .swiper-pagination .swiper-pagination-bullet,
 #swiper-avtor .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
-  height: 12px; }
-
-
+  height: 12px;
+    outline: none;}

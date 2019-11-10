@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
 
@@ -23,7 +22,8 @@ $(document).ready(function() {
     highlightByNextTarget  : true,
     keepHighlightUntilNext : true,
     autoScrollSpeed        : true,
-    scrollSpeed            : 1000
+    scrollSpeed            : 1000,
+    highlightSelector: ".top-menu ul li a"
   });
 
 
@@ -45,11 +45,6 @@ $("a[href='#call-back']").click(function(){
   $(".forms-call h4").text(dataText);
   $(".forms-call [name=admin-data]").val(dataForm);
 });
-
-
-
-
-
 
 
 $(".tab_item").not(":first").hide();
@@ -134,8 +129,6 @@ $(".adwise-box-item").magnificPopup({
   type:'inline',
 });
 
-
-
 var swiper = new Swiper('#firstswiper00', {
 slidesPerView       : 5,
  slidesPerGroup: 5,
@@ -189,64 +182,29 @@ $('.modal_form_picture').hover(
   }, function () {
     $(this).children('img').css({top: 0}, 1000000);
   });
-$("ul#loadMoreDiv li").slice(0, 8).show();
-$("#loadMore").on('click', function (e) {
-  e.preventDefault();
-  $("ul#loadMoreDiv li:hidden").slice(0, 8).slideDown();
-  if ($("ul#loadMoreDiv li:hidden").length == 0) {
-    $("#load").fadeOut('slow');
+
+var swiper = new Swiper('#swiper-avtor', {
+  pagination          : {
+  el                  : '.swiper-pagination',
+  clickable           : true,
+  },
+loop                : true,
+keyboardControl     : true,
+roundLengths        : true,
+paginationClickable : true,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10
+    },
+    // when window width is >= 640px
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    }
   }
-  $('html,body').animate({
-    scrollTop: $(this).offset().top
-  }, 1500);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $("a[href='#go_thirtyjurnal'], a[href='#go_sunny'], a[href='#go_yg'], a[href='#go_cosmarina'], a[href='#go_svet'], a[href='#go_thirtymyslanarse'], a[href='#go_thirtymysoils'], a[href='#go_thirtymysarsenyn'], a[href='#go_thirtymys'], a[href='#go_thirtyeight'], a[href='#go_me'], a[href='#go_sport'], a[href='#go_mk'], a[href='#go_elki'], a[href='#go_ziro'], a[href='#go_thirtyseven'], a[href='#go_thirtysix'], a[href='#go_thirtyfive'], a[href='#go_thirtyfoure'], a[href='#go_thirtythree'], a[href='#go_thirtytwo'], a[href='#go_thirtyone'], a[href='#go_thirty'], a[href='#go_twentynine'], a[href='#go_twentyeight'], a[href='#go_twentyseven'], a[href='#go_twentysix'], a[href='#go_twentyfive'], a[href='#go_twentyfoure'], a[href='#go_twentythree'], a[href='#go_twentytwo'], a[href='#go_twentyone'], a[href='#go_twenty'], a[href='#go_nineteen'], a[href='#go_eighteen'], a[href='#go_seventeen'], a[href='#go_sixteen'], a[href='#go_fifteen'], a[href='#go_fourteen'], a[href='#go_thirteen'], a[href='#go_thirteen'], a[href='#go_twelve'], a[href='#go_eleven'], a[href='#go_ten'], a[href='#go_nine'], a[href='#go_eight'], a[href='#go_seven'], a[href='#go_six'], a[href='#go_five'], a[href='#go_foure'], a[href='#go-one'], a[href='#go_two'], a[href='#go_three']").magnificPopup ({
-//   mainClass    : 'mfp-fade',
-//   removalDelay : 300,
-//   type         : 'inline',
-// });
-
-
-
-
-
-
-
-
-// var swiper = new Swiper('#swiper-avtor', {
-//  pagination          : '.swiper-pagination',
-//  breakpoints: {
-//   740: {
-//     slidesPerView: 1,
-//     spaceBetween: 10
-//   },
-//   1920: {
-//     slidesPerView: 2,
-//     spaceBetween: 20
-//   }
-// },
-// loop                : true,
-// keyboardControl     : true,
-// roundLengths        : true,
-// paginationClickable : true,
-// spaceBetween        : 10
-// });
-
 
 //Аякс отправка форм Документация: http://api.jquery.com/jquery.ajax/
 $("form").submit(function() { //Change

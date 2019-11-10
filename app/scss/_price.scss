@@ -1,0 +1,114 @@
+#price {
+  position: relative;
+  padding-bottom: 45px; }
+
+.tabs {
+  width: 50.91%;
+  margin: 0 auto 20px auto;
+}
+
+.tabs .tab {
+  display: inline-block;
+  padding: 20px 25px 16px 25px;
+  background-color: #ff7800;
+  font-size: 1.3rem;
+  border-bottom: 4px solid #ff7800;
+  cursor: pointer; }
+
+.wrapper .tab {
+  color: #ffffff; }
+
+.wrapper .active {
+  border-bottom: 4px solid #ff4800; }
+
+.price-box {
+  padding: 0;
+  margin: 0; }
+
+.price-box_price {
+  width: 32.0%;
+  float: left;
+  margin-right: 1.3%; }
+
+.price-box_price:last-child {
+  margin-right: 0; }
+
+.price-box_title {
+  width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #ff7800; }
+
+.price-title_name {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  text-align: center;
+  border-bottom: 1px dashed #F14417; }
+
+.price-title_descr {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  border-bottom: 1px dashed #F14417;
+  padding: 5px 0; }
+
+.price-title_price {
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #F14417;
+  margin: 0 5px;
+  text-align: center;
+  padding: 3px 0;
+  -webkit-border-radius: 35px;
+          border-radius: 35px; }
+
+.price-title_term {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px; }
+
+.price-description {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #CECECE; }
+
+.price-desc_line {
+  border-bottom: 1px dashed #95989A; }
+
+.price-button {
+  margin-top: 20px;
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  text-decoration: none;
+   text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  background-color: #FF7800;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  -webkit-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease; }
+
+.price-button span {
+  text-transform: uppercase; }
+
+.price-button:hover {
+  background-color: #F89430;
+  text-decoration: none;
+  color: #ffffff; }
+
+.price-button:visited,
+.price-button:focus {
+  color: #000000;
+text-decoration: none;
+}
+
+#price .our-comand_believe {
+  margin-top: 30px; }
+
+
+
